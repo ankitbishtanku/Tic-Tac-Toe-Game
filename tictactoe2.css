@@ -1,0 +1,28 @@
+
+section{
+	text-align: center;
+}
+.gameContainer{
+	display: grid;
+	grid-template-columns: repeat(3, auto);	
+	width: 300px;
+	margin: 50px auto;
+}
+.cell{
+	border: 1px solid #333;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 100px;
+}
+.gameRestart{
+	background-color: skyblue;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+}
